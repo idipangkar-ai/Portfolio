@@ -1,0 +1,68 @@
+/* ------------------------------------------- */
+/* Main-Header Box Section Starts */
+.header {
+  margin-top: 1.2rem;
+  background: rgb(209, 0, 78);
+  background: radial-gradient(
+    circle,
+    rgba(209, 0, 78, 1) 0%,
+    rgba(106, 13, 173, 1) 0%,
+    rgb(0, 0, 0) 61%
+  );
+}
+
+/* Main-Header Box Section Ends */
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* Logo Section Starts */
+.header-nav-logo {
+  height: 4rem;
+
+  border-radius: 50%;
+}
+/* Logo Section Ends */
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* NavBar Sections Starts */
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.nab-item {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header-nav-lists {
+  list-style: none;
+
+  padding: 0.8rem;
+}
+
+.header-nav-links {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--light-cool-blue);
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-nav-links:hover {
+  color: var(--slate-teal);
+}
+
+/* Optional: Active or Focused State */
+.header-nav-links:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--slate-teal);
+}
+/* NavBar Sections Ends */
+/* ------------------------------------------- */

@@ -1,0 +1,85 @@
+.header-title-heading-2 {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #fff;
+  margin: -2px 0 0 11px;
+}
+
+.header-title-heading-1 {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 115px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #fff;
+  margin: -14px auto -5px auto;
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+}
+
+/* ------------------------------------------------ */
+/* Vertical Social-Icon section starts */
+.social-media-icons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-left: 4rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #ff7f50;
+}
+
+.social-icon i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover i {
+  transform: scale(1.1);
+}
+
+.arrow-up,
+.arrow-down {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.arrow-up:hover,
+.arrow-down:hover {
+  color: #ff7f50;
+  transform: scale(1.1);
+}
+
+.arrow-up {
+  margin-bottom: 20px;
+}
+
+.arrow-down {
+  margin-top: 20px;
+}
+/* Vertical Social-Icon section ends */
+/* ------------------------------------------------ */
