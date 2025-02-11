@@ -1,0 +1,151 @@
+/* ----------------------------------------- */
+.live-demo {
+  margin-top: 12rem;
+}
+
+.live-demo-outer-container {
+  background: rgb(160, 32, 240);
+  background: radial-gradient(
+    circle,
+    rgba(160, 32, 240, 1) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+
+.live-demo-inner-container {
+  margin: 4rem 4rem;
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+.live-demo-title {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 115px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #fff;
+
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+
+  margin-bottom: 8rem;
+}
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+.live-demo-content {
+  margin: 0 6rem;
+}
+
+.live-demo-item {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.live-demo-list {
+  flex: 1;
+  padding: 10px;
+}
+/* ---------------------- */
+.live-demo-list {
+  display: flex;
+
+  align-items: center;
+  height: 100%;
+}
+
+/*  */
+.live-demo-content-title {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.live-demo-heading-2 {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #fff;
+
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+  padding-bottom: 1rem;
+}
+
+.ld-description {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #fff;
+
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+}
+
+.line {
+  height: 45rem;
+  width: 1px;
+  background-color: #e82424;
+}
+
+.live-demo-list {
+  width: 100%;
+  padding: 10px;
+}
+
+.ld-img-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(160, 32, 240);
+  background: radial-gradient(
+    circle,
+    rgba(160, 32, 240, 1) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.live-demo-img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ----------------------------------------- */

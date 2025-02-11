@@ -1,0 +1,128 @@
+.price-card {
+  margin-top: 12rem;
+}
+.price-card-outer-container {
+  background: rgb(160, 32, 240);
+  background: radial-gradient(
+    circle,
+    rgba(160, 32, 240, 1) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+
+.price-card-inner-container {
+  padding: 0.4rem;
+  margin: 0 6rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.price-card-content {
+  border-radius: 16px;
+
+  box-shadow: 0 0 15px rgba(160, 32, 240, 0.8), 0 0 30px rgba(160, 32, 240, 0.7),
+    0 0 50px rgba(160, 32, 240, 0.6), 0 0 70px rgba(160, 32, 240, 0.5),
+    0 0 100px rgba(160, 32, 240, 0.4), 0 0 150px rgba(160, 32, 240, 0.3),
+    0 0 200px rgba(160, 32, 240, 0.2);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  padding: 2rem;
+}
+/*  */
+.price-title {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 115px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+
+  margin-bottom: 8rem;
+}
+
+/*  */
+/* Card Container */
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  border: 1px solid rgba(38, 255, 0, 0.598);
+
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  position: relative;
+  font-family: "Oswald", sans-serif;
+
+  font-weight: 400;
+  font-size: 2rem;
+
+  text-transform: uppercase;
+
+  color: #fff;
+
+  width: 100%;
+  line-height: 100%;
+  z-index: 1;
+  margin-bottom: 3rem;
+}
+
+.price-card-features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.price-card-features-list li {
+  margin-bottom: 8px;
+  color: #ffffff;
+  line-height: 1;
+  font-size: 1.4rem;
+  font-family: "Noto Serif", serif;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

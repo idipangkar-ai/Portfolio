@@ -15,6 +15,12 @@
       rel="stylesheet"
     />
 
+    <!-- Noto Serif -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Popins Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -29,6 +35,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+
     <!-- Social Icon links ends -->
     <!-- ----------------------------------------- -->
 
@@ -36,9 +43,14 @@
     <!-- Internal css links starts -->
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/btn.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/live-demo.css" />
+    <link rel="stylesheet" href="./css/price-card.css" />
     <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/the-demo.css" />
     <link rel="stylesheet" href="./css/ultis.css" />
 
     <link rel="stylesheet" href="./css/desktop-query.css" />
@@ -73,18 +85,21 @@
               >
             </li>
             <li class="header-nav-lists" id="header-nav-lists">
-              <a href="#" class="header-nav-links" id="header-nav-links"
-                >Services</a
+              <a
+                href="./about.html"
+                class="header-nav-links"
+                id="header-nav-links"
+                >About</a
               >
             </li>
             <li class="header-nav-lists" id="header-nav-lists">
               <a href="#" class="header-nav-links" id="header-nav-links"
-                >Live Project</a
+                >Live Demo</a
               >
             </li>
             <li class="header-nav-lists" id="header-nav-lists">
               <a href="#" class="header-nav-links" id="header-nav-links"
-                >Live Project</a
+                >The Demo</a
               >
             </li>
           </ul>
@@ -105,66 +120,828 @@
     <!-- Entire Header section ends -->
 
     <!-- Hero section starts -->
-    <section class="hero-section">
-      <div class="hero-section-inner-container">
-        <!-- Left Side Social Media Icons -->
-        <div class="social-media-icons">
-          <!-- Upwards Arrow -->
-          <div class="arrow-up">&#8593;</div>
-          <a href="https://www.youtube.com" target="_blank" class="social-icon">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            class="social-icon"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            class="social-icon"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com" target="_blank" class="social-icon">
-            <i class="fab fa-github"></i>
-          </a>
+    <section class="hero">
+      <!-- Galaxy Particle starts -->
+      <div class="galaxy" id="galaxy-container">
+        <!-- Particles will be inserted here by JS -->
+      </div>
+      <!-- Galaxy Particle ends -->
+      <div class="hero-outer-container">
+        <div class="hero-inner-container">
+          <div class="hero-content-box">
+            <div class="social-icon-content hero-item">
+              <div class="social-icons">
+                <!--  -->
+                <ul class="hero-social-icon-item">
+                  <!-- Instagram -->
+                  <li class="hero-social-icon-lists">
+                    <a
+                      class="hero-social-icon-links"
+                      href="https://instagram.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
 
-          <!-- Downwards Arrow -->
-          <div class="arrow-down">&#8595;</div>
-        </div>
+                  <!-- GitHub -->
+                  <li class="hero-social-icon-lists">
+                    <a
+                      class="hero-social-icon-links"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
 
-        <!-- Divider -->
-        <div class="inner-divider-half"></div>
-        <div class="inner-divider-half"></div>
-        <!-- Divider -->
-        <div class="hero-title-sm-container">
-          <h2 class="heading-2 header-title-heading-2">Dipangkar H</h2>
-        </div>
-        <!-- Divider -->
-        <div class="inner-divider-half"></div>
-        <!-- Divider -->
-        <div class="hero-title-ls-container">
-          <h2 class="heading-1 header-title-heading-1">SDE</h2>
-        </div>
-        <!-- Divider -->
-        <div class="inner-divider-half"></div>
-        <!-- Divider -->
-        <div class="hero-btn-box">
-          <a class="hero-btn-link" href="contact.html">
-            <button class="hero-btn-text btn-flip" id="hero-header-btn-text">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Live Demo
-            </button>
-          </a>
+                  <!-- LinkedIn -->
+                  <li class="hero-social-icon-lists">
+                    <a
+                      class="hero-social-icon-links"
+                      href="https://linkedin.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+
+                  <!-- YouTube -->
+                  <li class="hero-social-icon-lists">
+                    <a
+                      class="hero-social-icon-links"
+                      href="https://youtube.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content hero-item">
+              <div class="hero-cude-container">
+                <div class="box-card">
+                  <div class="face front">FrontEnd</div>
+                  <div class="face back">BackEnd</div>
+                  <div class="face right">Right</div>
+                  <div class="face left">Left</div>
+                  <div class="face top">Top</div>
+                  <div class="face bottom">Bottom</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Hero section ends -->
+
+    <!-- Live-Demo section starts -->
+    <section class="live-demo">
+      <div class="live-demo-outer-container">
+        <div class="live-demo-inner-container">
+          <div class="live-demo-content">
+            <div class="demo-title-box">
+              <h1 class="heading-1 live-demo-title">Live Demo</h1>
+            </div>
+            <div class="live-demo-item">
+              <div class="live-demo-list">
+                <div class="live-demo-content-title">
+                  <h2 class="live-demo-heading-2 ldt-2">The Chat</h2>
+                  <p class="ld-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    dolore neque fuga nisi accusamus magnam. Corrupti reiciendis
+                    accusamus, sequi suscipit velit cupiditate et nulla at amet
+                    tempore aliquam quod omnis ipsa ut id, voluptatibus
+                    perferendis dicta magni, quia illo iusto iure? Quae ad eum
+                    dignissimos? Modi repellendus eum totam adipisci.
+                  </p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="live-demo-list">
+                <div class="ld-img-box">
+                  <img
+                    src="./image/live-demo/chat.png"
+                    alt=""
+                    class="live-demo-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="live-demo-item">
+              <div class="live-demo-list">
+                <div class="ld-img-box">
+                  <img
+                    src="./image/live-demo/hotel.png"
+                    alt=""
+                    class="live-demo-img"
+                  />
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="live-demo-list">
+                <div class="live-demo-content-title ldt-2">
+                  <h2 class="live-demo-heading-2 ldt-2">The Chat</h2>
+                  <p class="ld-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    dolore neque fuga nisi accusamus magnam. Corrupti reiciendis
+                    accusamus, sequi suscipit velit cupiditate et nulla at amet
+                    tempore aliquam quod omnis ipsa ut id, voluptatibus
+                    perferendis dicta magni, quia illo iusto iure? Quae ad eum
+                    dignissimos? Modi repellendus eum totam adipisci.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="live-demo-item">
+              <div class="live-demo-list">
+                <div class="live-demo-content-title ldt-2">
+                  <h2 class="live-demo-heading-2 ldt-2">The Chat</h2>
+                  <p class="ld-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                    dolore neque fuga nisi accusamus magnam. Corrupti reiciendis
+                    accusamus, sequi suscipit velit cupiditate et nulla at amet
+                    tempore aliquam quod omnis ipsa ut id, voluptatibus
+                    perferendis dicta magni, quia illo iusto iure? Quae ad eum
+                    dignissimos? Modi repellendus eum totam adipisci.
+                  </p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+              <div class="live-demo-list">
+                <div class="ld-img-box">
+                  <img
+                    src="./image/live-demo/tours.png"
+                    alt=""
+                    class="live-demo-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Live section ends -->
+
+    <!-- The Demo section starts -->
+    <section class="the-demo">
+      <div class="the-demo-outer-container">
+        <div class="the-demo-inner-conatainer">
+          <div class="the-demo-content">
+            <div class="the-demo-title-box">
+              <h1 class="the-demo-title">Demo</h1>
+            </div>
+            <!-- Demo Nav List -->
+            <div class="the-demo-nav-box">
+              <nav class="the-demo-navbar">
+                <ul class="the-demo-nav-item">
+                  <li class="the-demo-nav-list">
+                    <a href="" class="the-demo-nav-links">Web Apps</a>
+                  </li>
+                  <li class="the-demo-nav-list">
+                    <a href="" class="the-demo-nav-links">Web Templates</a>
+                  </li>
+                  <li class="the-demo-nav-list">
+                    <a href="" class="the-demo-nav-links">Web Games</a>
+                  </li>
+                  <li class="the-demo-nav-list">
+                    <a href="" class="the-demo-nav-links">Web Themes</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Demo Box -->
+            <div class="demo-box">
+              <div class="demo-box-outer-container">
+                <div class="demo-box-inner-container">
+                  <div class="demo-box-content">
+                    <div class="grid-container">
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-1.png" alt="Image 1" />
+
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-2.png" alt="Image 2" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-3.png" alt="Image 3" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-4.png" alt="Image 4" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-5.png" alt="Image 5" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-6.png" alt="Image 6" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-7.png" alt="Image 7" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-8.png" alt="Image 8" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-9.png" alt="Image 9" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-10.jpg" alt="Image 10" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-11.jpg" alt="Image 11" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-item">
+                        <img src="./image/demo/demo-12.jpg" alt="Image 12" />
+                        <!-- Card Btn -->
+                        <div class="the-demo-btn-box">
+                          <div class="the-demo-inner-card the-demo-card-title">
+                            <button class="the-demo-card-btn live-demo-btn">
+                              <span></span><span></span><span></span
+                              ><span></span>Live Demo
+                            </button>
+                          </div>
+                          <div class="the-demo-inner-card the-demo-card-btn">
+                            <button
+                              class="the-demo-card-btn live-demo-details-btn"
+                            >
+                              Details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- The Demo section ends -->
+
+    <!-- FAQ Section starts -->
+    <section class="faq">
+      <div class="faq-outer-container">
+        <div class="faq-inner-container">
+          <div class="faq-content-container">
+            <div id="faq" class="faq-section">
+              <h2 class="faq-title">FAQ</h2>
+
+              <div class="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    What technologies do you specialize in?
+                  </button>
+                  <div class="faq-answer">
+                    <p class="faq-description">
+                      I specialize in a variety of technologies such as Java,
+                      Python, JavaScript, TypeScript, React, Node.js, Express,
+                      Django, and SQL. I'm also familiar with version control
+                      (Git), Docker, and cloud services like AWS.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    How do you approach problem-solving?
+                  </button>
+                  <div class="faq-answer">
+                    <p>
+                      I follow a structured approach to problem-solving:
+                      Understand the problem, plan the solution, implement clean
+                      code, test and debug, and optimize for performance where
+                      needed.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    Can you share some of the projects you've worked on?
+                  </button>
+                  <div class="faq-answer">
+                    <p>I've worked on multiple projects such as:</p>
+                    <ul>
+                      <li>A goal tracking web app using React and Node.js.</li>
+                      <li>
+                        A microservices-based backend for e-commerce platforms.
+                      </li>
+                      <li>
+                        A fitness tracking mobile app built with React Native.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    Do you have experience working in teams?
+                  </button>
+                  <div class="faq-answer">
+                    <p>
+                      Yes! I've collaborated with product managers, designers,
+                      and other developers to build features, fix bugs, and
+                      improve performance in team-based environments.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    How do you stay updated with new technologies?
+                  </button>
+                  <div class="faq-answer">
+                    <p>
+                      I stay updated by reading tech blogs (Dev.to, Medium),
+                      taking online courses, and contributing to open-source
+                      projects to learn from others in the development
+                      community.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    What is your experience with system design?
+                  </button>
+                  <div class="faq-answer">
+                    <p>
+                      I have experience designing scalable systems, RESTful
+                      APIs, and working with cloud platforms like AWS. I'm
+                      skilled in system optimization and ensuring fault
+                      tolerance in distributed systems.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- FAQ Item 7 -->
+                <div class="faq-item">
+                  <button class="faq-question">
+                    How can I contact you for job opportunities or
+                    collaborations?
+                  </button>
+                  <div class="faq-answer">
+                    <p>You can contact me via:</p>
+                    <ul>
+                      <li>
+                        Email:
+                        <a href="mailto:your.email@example.com"
+                          >your.email@example.com</a
+                        >
+                      </li>
+                      <li>
+                        LinkedIn:
+                        <a
+                          href="https://linkedin.com/in/yourprofile"
+                          target="_blank"
+                          >linkedin.com/in/yourprofile</a
+                        >
+                      </li>
+                      <li>
+                        GitHub:
+                        <a
+                          href="https://github.com/yourusername"
+                          target="_blank"
+                          >github.com/yourusername</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section ends -->
+
+    <!-- Price card section starts -->
+    <section class="price-card">
+      <div class="price-card-outer-container">
+        <div class="price-card-inner-container">
+          <div class="price-card-content">
+            <div class="price-title-box">
+              <h1 class="price-title">Partially Available</h1>
+            </div>
+            <div class="price-card-container">
+              <div class="cards-container">
+                <!-- Front-End Development Card -->
+                <div class="card">
+                  <h2 class="card-title">Front-End Development</h2>
+                  <ul class="price-card-features-list">
+                    <li class="price-card-list" class="price-card-list">
+                      Proficient in HTML, CSS, and JavaScript
+                    </li>
+                    <li class="price-card-list">
+                      Expert in React.js and its ecosystem (Redux, React Router)
+                    </li>
+                    <li class="price-card-list">
+                      Responsive Design with Bootstrap and Tailwind CSS
+                    </li>
+                    <li class="price-card-list">
+                      Modern JavaScript (ES6+) features and practices
+                    </li>
+                    <li class="price-card-list">
+                      UI/UX Best Practices for intuitive interfaces
+                    </li>
+                    <li class="price-card-list">
+                      Cross-Browser Compatibility and Performance Optimization
+                    </li>
+                    <li class="price-card-list">
+                      Version Control with Git and GitHub
+                    </li>
+                  </ul>
+                  <button class="btn">Let's Talk</button>
+                </div>
+
+                <!-- Back-End Development Card -->
+                <div class="card">
+                  <h2 class="card-title">Back-End Development</h2>
+                  <ul class="price-card-features-list">
+                    <li class="price-card-list">
+                      Strong experience in Node.js, Express.js
+                    </li>
+                    <li class="price-card-list">
+                      API Development (RESTful APIs, GraphQL)
+                    </li>
+                    <li class="price-card-list">
+                      Database Management (MongoDB, MySQL, PostgreSQL)
+                    </li>
+                    <li class="price-card-list">
+                      Authentication & Authorization (JWT, OAuth)
+                    </li>
+                    <li class="price-card-list">
+                      Server-Side Programming & Cloud Deployment (AWS, Heroku)
+                    </li>
+                    <li class="price-card-list">
+                      Unit Testing and Integration Testing
+                    </li>
+                    <li class="price-card-list">
+                      Code Optimization and Scalability
+                    </li>
+                  </ul>
+                  <button class="btn">Let's Talk</button>
+                </div>
+
+                <!-- Software Architecture & Design Card -->
+                <div class="card">
+                  <h2 class="card-title">Software Architecture & Design</h2>
+                  <ul class="price-card-features-list">
+                    <li class="price-card-list">
+                      Proficient in Object-Oriented Design (OOD)
+                    </li>
+                    <li class="price-card-list">
+                      Deep understanding of Design Patterns (Factory, Singleton,
+                      etc.)
+                    </li>
+                    <li class="price-card-list">
+                      Microservices & Modular Architecture
+                    </li>
+                    <li class="price-card-list">
+                      Familiarity with SOLID Principles for maintainable code
+                    </li>
+                    <li class="price-card-list">
+                      Agile/Scrum Methodology and Best Practices
+                    </li>
+                    <li class="price-card-list">
+                      Documentation and Code Reviews
+                    </li>
+                    <li class="price-card-list">
+                      Version Control using Git and GitHub
+                    </li>
+                  </ul>
+                  <button class="btn">Let's Talk</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Price card section ends -->
+
+    <!-- Footer logo section starts -->
+    <section class="footer-logo">
+      <div class="footer-logo-outer-container">
+        <div class="footer-logo-inner-container">
+          <div class="footer-logo-content">
+            <img
+              src="./image/logo/header-logo.png"
+              alt="Footer Logo"
+              class="footer-logo-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer logo section ends -->
+
+    <hr />
+
+    <!-- Footer section starts -->
+    <section class="footer">
+      <div class="footer-outer-container">
+        <div class="footer-inner-container">
+          <div class="footer-content">
+            <div class="footer-container">
+              <!-- 1st Section: About Us -->
+              <div class="footer-section about">
+                <h3>About Me</h3>
+                <p>
+                  Hi, I'am
+                  <strong> <a href="#">Dipangkar Hajong</a> </strong>, A
+                  Software Development Engineer (SDE) @Forrce Infotech Solution
+                  India Pvt Ltd.
+                </p>
+              </div>
+
+              <!-- 2nd Section: Quick Links -->
+              <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">Live Demo</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Web Apps</a></li>
+                  <li><a href="#">Web Templates</a></li>
+                </ul>
+              </div>
+
+              <!-- 3rd Section: Contact Info -->
+              <div class="footer-section contact">
+                <h3>Contact</h3>
+                <p>
+                  Email:
+                  <a href="idipangkar5@gmail.com">idipangkar5@gmail.com</a>
+                </p>
+                <p>Phone: <a href="tel:+918837388307">+91-883-738-8307</a></p>
+              </div>
+
+              <!-- 4th Section: Subscribe -->
+              <div class="footer-section subscribe">
+                <h3>Subscribe</h3>
+                <p>Sign up to receive updates and special offers!</p>
+                <form action="#" method="post">
+                  <input type="email" placeholder="Enter your email" required />
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>&copy; 2025 Your Company. All rights reserved.</p>
+            </div>
+
+            <!-- Footer Social icon -->
+            <div class="footer-social-icon-box">
+              <div class="footer-social-icons">
+                <!--  -->
+                <ul class="footer-social-icon-item">
+                  <!-- Instagram -->
+                  <li class="footer-social-icon-lists">
+                    <a
+                      class="footer-social-icon-links"
+                      href="https://instagram.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+
+                  <!-- GitHub -->
+                  <li class="footer-social-icon-lists">
+                    <a
+                      class="footer-social-icon-links"
+                      href="https://github.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+
+                  <!-- LinkedIn -->
+                  <li class="footer-social-icon-lists">
+                    <a
+                      class="footer-social-icon-links"
+                      href="https://linkedin.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+
+                  <!-- YouTube -->
+                  <li class="footer-social-icon-lists">
+                    <a
+                      class="footer-social-icon-links"
+                      href="https://youtube.com"
+                      target="_blank"
+                    >
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section ends -->
+
+    <!-- Script -->
+    <script src="./javascript/galaxy-perticle.js"></script>
+    <script src="./javascript/faq.js"></script>
+    <!-- Script -->
   </body>
 </html>
